@@ -2,12 +2,12 @@
   "name": "react-task",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://PitsuhaVladislaw.github.io/react-task",
   "description": "task for internship",
   "main": "index.js",
   "bugs": {
     "email": "vladikpizza02@gmail.com"
   },
-  "homepage": "https://PitsuhaVladislaw.github.io/react-task",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
