@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/react-task/static/css/main.ffef807f.css",
+    "main.js": "/react-task/static/js/main.bf1fbbee.js",
+    "static/media/image 2.png": "/react-task/static/media/image 2.5492285bc7d1a3c3c8e9.png",
+    "index.html": "/react-task/index.html",
+    "main.ffef807f.css.map": "/react-task/static/css/main.ffef807f.css.map",
+    "main.bf1fbbee.js.map": "/react-task/static/js/main.bf1fbbee.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ffef807f.css",
+    "static/js/main.bf1fbbee.js"
+  ]
+}
