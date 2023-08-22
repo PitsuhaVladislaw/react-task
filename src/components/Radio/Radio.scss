@@ -1,0 +1,58 @@
+$font: Roboto, sans-serif;
+
+.button-menu {
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+
+
+    h3 {
+        color: #666;
+        font-family: 100% $font;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        margin: 0;
+    }
+
+    article {
+        display: flex;
+        margin: 16px 0 0;
+        gap: 16px;
+
+        div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: auto;
+            height: auto;
+            border-radius: 100%;
+            border: 4px solid white;
+            filter: drop-shadow(0px 0px 4px rgba(0, 0, 0, 0.25));
+            button {
+                width: 35px;
+                height: 35px;
+                stroke-width: 4px;
+                border-radius: 100%;
+            }
+            
+            #redBtn {
+                background: #E44;
+            }
+        
+            #blueBtn {
+                background: #3C81F6;
+            }
+        
+            #blackBtn {
+                background:#000;
+            }
+        }
+
+        div:hover {
+            border-color:#000;
+            filter: drop-shadow(0px 0px 4px rgba(0, 0, 0, 0.25));
+        }
+    }
+}

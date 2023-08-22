@@ -1,0 +1,26 @@
+.buttons {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 16px;
+}
+.buttons button {
+  margin-top: 16px;
+  width: 320px;
+  height: 55px;
+  border-radius: 8px;
+  color: #333;
+  text-align: center;
+  font-family: 100% Roboto, sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.buttons #add {
+  background: #FBBF23;
+}
+.buttons #buy {
+  border: 1px solid #61A5FA;
+}/*# sourceMappingURL=Button.css.map */

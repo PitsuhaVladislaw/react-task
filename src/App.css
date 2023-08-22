@@ -1,0 +1,36 @@
+.board {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: black;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 400px;
+  height: 838px;
+  border-radius: 8px;
+  border: 1px solid #E7E6EB;
+  background: #FFF;
+  padding: 40px;
+  box-shadow: 0px 8px 24px 0px rgba(0, 0, 0, 0.08);
+}
+.card img {
+  margin: 0 auto;
+  width: 258px;
+  height: 258px;
+  background: lightgray 50%/cover no-repeat;
+}
+.card a {
+  margin-top: 32px;
+  color: #61A5FA;
+  font-family: 100% Roboto, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  text-decoration-line: underline;
+}/*# sourceMappingURL=App.css.map */

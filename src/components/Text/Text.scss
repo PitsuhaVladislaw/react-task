@@ -1,0 +1,39 @@
+$font: Roboto, sans-serif;
+
+.text {
+    margin-top: 24px;
+    height: auto;
+    width: auto;
+
+    %text-set {
+        color: #333;
+        font-family: 100% $font;
+        font-style: normal;
+        line-height: normal;
+        margin-top: 0;
+        margin: 0;
+    }
+
+    h1 {
+        @extend %text-set;
+        font-size: 32px;
+        font-weight: 700;
+        margin: 0
+    }
+
+    h2 {
+        @extend %text-set;
+        font-size: 24px;
+        font-weight: 600;
+        margin-top: 16px
+    }
+
+    p {
+        @extend %text-set;
+        color: #333;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        margin-top: 8px;
+    }
+}

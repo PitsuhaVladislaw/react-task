@@ -1,0 +1,31 @@
+$font: Roboto, sans-serif;
+
+.buttons {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 16px;
+
+    button {
+        margin-top: 16px;
+        width: 320px;
+        height: 55px;
+        border-radius: 8px;
+        color: #333;
+        text-align: center;
+        font-family: 100% $font;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    #add {
+        background: #FBBF23;
+    }
+
+    #buy {
+        border: 1px solid #61A5FA;
+    }
+}
